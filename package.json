@@ -4,12 +4,14 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "ng": "ionic-app-scripts ng",
+    "start": "ionic-app-scripts serve",
+    "build": "ionic-app-scripts build",
+    "test": "ionic-app-scripts test",
+    "lint": "ionic-app-scripts lint",
+    "e2e": "ionic-app-scripts e2e",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "private": true,
   "dependencies": {
@@ -46,10 +48,9 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~3.9.5"
+    "typescript": "~3.9.5",
+    "@ionic/app-scripts": "3.2.1"
   },
-  "devDependencies": {
-   
-  },
+  "devDependencies": {},
   "description": "An Ionic project"
 }
